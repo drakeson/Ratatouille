@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F237E582670AA0B00BC5CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E572670AA0B00BC5CD3 /* AppDelegate.swift */; };
+		6F237E5A2670AA0B00BC5CD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E592670AA0B00BC5CD3 /* SceneDelegate.swift */; };
+		6F237E5C2670AA0B00BC5CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E5B2670AA0B00BC5CD3 /* ViewController.swift */; };
+		6F237E5F2670AA0B00BC5CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F237E5D2670AA0B00BC5CD3 /* Main.storyboard */; };
+		6F237E612670AA0D00BC5CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F237E602670AA0D00BC5CD3 /* Assets.xcassets */; };
+		6F237E642670AA0D00BC5CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F237E622670AA0D00BC5CD3 /* LaunchScreen.storyboard */; };
+		6F237E722670AE1300BC5CD3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E702670AE1300BC5CD3 /* Reachability.swift */; };
+		6F237E732670AE1300BC5CD3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E712670AE1300BC5CD3 /* UIColorExtension.swift */; };
+		6F237E752670AE2B00BC5CD3 /* Ratatouille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E742670AE2B00BC5CD3 /* Ratatouille.swift */; };
+		6F237E772670B4F200BC5CD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F237E762670B4F200BC5CD3 /* GoogleService-Info.plist */; };
+		6F237E792670B72600BC5CD3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E782670B72600BC5CD3 /* Order.swift */; };
+		6F237E7B2670B72F00BC5CD3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E7A2670B72F00BC5CD3 /* Food.swift */; };
+		6F237E7E2670B94300BC5CD3 /* OrderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E7D2670B94300BC5CD3 /* OrderTableCell.swift */; };
+		6F237E802670B9F700BC5CD3 /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F237E7F2670B9F700BC5CD3 /* AddVC.swift */; };
+		6FBD620026721DB1001ADEED /* OrderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD61FF26721DB1001ADEED /* OrderVM.swift */; };
+		6FBD6202267338A7001ADEED /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD6201267338A7001ADEED /* DetailsVC.swift */; };
+		6FC6B67B267352F800FC8D77 /* FoodPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC6B67A267352F800FC8D77 /* FoodPicker.swift */; };
+		C2E97E3F381AB0F7EC58C39D /* Pods_Ratatouille.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D20080C3BD8C0D6FD8AD2C /* Pods_Ratatouille.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29ED0E3FCA71731A84994FAA /* Pods-Ratatouille.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ratatouille.debug.xcconfig"; path = "Target Support Files/Pods-Ratatouille/Pods-Ratatouille.debug.xcconfig"; sourceTree = "<group>"; };
+		6F237E542670AA0B00BC5CD3 /* Ratatouille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratatouille.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F237E572670AA0B00BC5CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F237E592670AA0B00BC5CD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F237E5B2670AA0B00BC5CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F237E5E2670AA0B00BC5CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F237E602670AA0D00BC5CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F237E632670AA0D00BC5CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F237E652670AA0D00BC5CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F237E702670AE1300BC5CD3 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6F237E712670AE1300BC5CD3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6F237E742670AE2B00BC5CD3 /* Ratatouille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratatouille.swift; sourceTree = "<group>"; };
+		6F237E762670B4F200BC5CD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F237E782670B72600BC5CD3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		6F237E7A2670B72F00BC5CD3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		6F237E7D2670B94300BC5CD3 /* OrderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableCell.swift; sourceTree = "<group>"; };
+		6F237E7F2670B9F700BC5CD3 /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		6FBD61FF26721DB1001ADEED /* OrderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVM.swift; sourceTree = "<group>"; };
+		6FBD6201267338A7001ADEED /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		6FC6B67A267352F800FC8D77 /* FoodPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPicker.swift; sourceTree = "<group>"; };
+		C2D20080C3BD8C0D6FD8AD2C /* Pods_Ratatouille.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ratatouille.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD557658974332CA6D5BAE /* Pods-Ratatouille.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ratatouille.release.xcconfig"; path = "Target Support Files/Pods-Ratatouille/Pods-Ratatouille.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F237E512670AA0B00BC5CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E97E3F381AB0F7EC58C39D /* Pods_Ratatouille.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E6822988F6D614DF9AAC67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29ED0E3FCA71731A84994FAA /* Pods-Ratatouille.debug.xcconfig */,
+				EDDD557658974332CA6D5BAE /* Pods-Ratatouille.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		621780EF3452068033F74B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D20080C3BD8C0D6FD8AD2C /* Pods_Ratatouille.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F237E4B2670AA0B00BC5CD3 = {
+			isa = PBXGroup;
+			children = (
+				6F237E562670AA0B00BC5CD3 /* Ratatouille */,
+				6F237E552670AA0B00BC5CD3 /* Products */,
+				15E6822988F6D614DF9AAC67 /* Pods */,
+				621780EF3452068033F74B0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F237E552670AA0B00BC5CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E542670AA0B00BC5CD3 /* Ratatouille.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F237E562670AA0B00BC5CD3 /* Ratatouille */ = {
+			isa = PBXGroup;
+			children = (
+				6FBD61FE26721DA1001ADEED /* ViewModel */,
+				6F237E6D2670AD2700BC5CD3 /* Models */,
+				6F237E6B2670AD1400BC5CD3 /* Views */,
+				6F237E6C2670AD1C00BC5CD3 /* Controllers */,
+				6F237E6E2670AD3300BC5CD3 /* Support Files */,
+			);
+			path = Ratatouille;
+			sourceTree = "<group>";
+		};
+		6F237E6B2670AD1400BC5CD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E602670AA0D00BC5CD3 /* Assets.xcassets */,
+				6F237E5D2670AA0B00BC5CD3 /* Main.storyboard */,
+				6F237E622670AA0D00BC5CD3 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F237E6C2670AD1C00BC5CD3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E7C2670B92800BC5CD3 /* Cell Controllers */,
+				6F237E5B2670AA0B00BC5CD3 /* ViewController.swift */,
+				6F237E7F2670B9F700BC5CD3 /* AddVC.swift */,
+				6FBD6201267338A7001ADEED /* DetailsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F237E6D2670AD2700BC5CD3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E782670B72600BC5CD3 /* Order.swift */,
+				6F237E7A2670B72F00BC5CD3 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F237E6E2670AD3300BC5CD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E6F2670ADF200BC5CD3 /* Extentions */,
+				6F237E572670AA0B00BC5CD3 /* AppDelegate.swift */,
+				6F237E592670AA0B00BC5CD3 /* SceneDelegate.swift */,
+				6F237E742670AE2B00BC5CD3 /* Ratatouille.swift */,
+				6F237E652670AA0D00BC5CD3 /* Info.plist */,
+				6F237E762670B4F200BC5CD3 /* GoogleService-Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		6F237E6F2670ADF200BC5CD3 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E702670AE1300BC5CD3 /* Reachability.swift */,
+				6F237E712670AE1300BC5CD3 /* UIColorExtension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		6F237E7C2670B92800BC5CD3 /* Cell Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F237E7D2670B94300BC5CD3 /* OrderTableCell.swift */,
+			);
+			path = "Cell Controllers";
+			sourceTree = "<group>";
+		};
+		6FBD61FE26721DA1001ADEED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6FBD61FF26721DB1001ADEED /* OrderVM.swift */,
+				6FC6B67A267352F800FC8D77 /* FoodPicker.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F237E532670AA0B00BC5CD3 /* Ratatouille */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F237E682670AA0D00BC5CD3 /* Build configuration list for PBXNativeTarget "Ratatouille" */;
+			buildPhases = (
+				4C5A817D0D4A37121EDF6727 /* [CP] Check Pods Manifest.lock */,
+				6F237E502670AA0B00BC5CD3 /* Sources */,
+				6F237E512670AA0B00BC5CD3 /* Frameworks */,
+				6F237E522670AA0B00BC5CD3 /* Resources */,
+				F1F6447A239879BF27DAA4E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ratatouille;
+			productName = Ratatouille;
+			productReference = 6F237E542670AA0B00BC5CD3 /* Ratatouille.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F237E4C2670AA0B00BC5CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6F237E532670AA0B00BC5CD3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6F237E4F2670AA0B00BC5CD3 /* Build configuration list for PBXProject "Ratatouille" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F237E4B2670AA0B00BC5CD3;
+			productRefGroup = 6F237E552670AA0B00BC5CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F237E532670AA0B00BC5CD3 /* Ratatouille */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F237E522670AA0B00BC5CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F237E642670AA0D00BC5CD3 /* LaunchScreen.storyboard in Resources */,
+				6F237E772670B4F200BC5CD3 /* GoogleService-Info.plist in Resources */,
+				6F237E612670AA0D00BC5CD3 /* Assets.xcassets in Resources */,
+				6F237E5F2670AA0B00BC5CD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C5A817D0D4A37121EDF6727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ratatouille-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F6447A239879BF27DAA4E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ratatouille/Pods-Ratatouille-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ratatouille/Pods-Ratatouille-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ratatouille/Pods-Ratatouille-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F237E502670AA0B00BC5CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F237E5C2670AA0B00BC5CD3 /* ViewController.swift in Sources */,
+				6FC6B67B267352F800FC8D77 /* FoodPicker.swift in Sources */,
+				6FBD6202267338A7001ADEED /* DetailsVC.swift in Sources */,
+				6F237E582670AA0B00BC5CD3 /* AppDelegate.swift in Sources */,
+				6F237E752670AE2B00BC5CD3 /* Ratatouille.swift in Sources */,
+				6F237E7E2670B94300BC5CD3 /* OrderTableCell.swift in Sources */,
+				6F237E802670B9F700BC5CD3 /* AddVC.swift in Sources */,
+				6F237E732670AE1300BC5CD3 /* UIColorExtension.swift in Sources */,
+				6F237E722670AE1300BC5CD3 /* Reachability.swift in Sources */,
+				6F237E7B2670B72F00BC5CD3 /* Food.swift in Sources */,
+				6F237E5A2670AA0B00BC5CD3 /* SceneDelegate.swift in Sources */,
+				6FBD620026721DB1001ADEED /* OrderVM.swift in Sources */,
+				6F237E792670B72600BC5CD3 /* Order.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F237E5D2670AA0B00BC5CD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F237E5E2670AA0B00BC5CD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F237E622670AA0D00BC5CD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F237E632670AA0D00BC5CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F237E662670AA0D00BC5CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F237E672670AA0D00BC5CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F237E692670AA0D00BC5CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ED0E3FCA71731A84994FAA /* Pods-Ratatouille.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B89LY5F2K;
+				INFOPLIST_FILE = "$(SRCROOT)/Ratatouille/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.ug.ratatouille;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F237E6A2670AA0D00BC5CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDD557658974332CA6D5BAE /* Pods-Ratatouille.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B89LY5F2K;
+				INFOPLIST_FILE = "$(SRCROOT)/Ratatouille/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.ug.ratatouille;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F237E4F2670AA0B00BC5CD3 /* Build configuration list for PBXProject "Ratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F237E662670AA0D00BC5CD3 /* Debug */,
+				6F237E672670AA0D00BC5CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F237E682670AA0D00BC5CD3 /* Build configuration list for PBXNativeTarget "Ratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F237E692670AA0D00BC5CD3 /* Debug */,
+				6F237E6A2670AA0D00BC5CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F237E4C2670AA0B00BC5CD3 /* Project object */;
+}
